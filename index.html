@@ -10,13 +10,15 @@
 <body>
     <div class="app">
         {{message}}
+        {{info}}
     </div>
     
     <script type="text/javascript">
         var app = new Vue({
             el: '.app',
             data: {
-                message: 'Hello Vue!'
+                message: 'Hello Vue!',
+                info: "这是Vue"
             }
         });
     </script>
